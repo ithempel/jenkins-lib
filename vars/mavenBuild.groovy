@@ -5,4 +5,5 @@ def call(Map params) {
 	}
 	echo "Building ${pom} ..."
 	sh "echo ${pom}"
+	echo "Added echo"
 }
